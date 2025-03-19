@@ -18,7 +18,7 @@ class Circle extends Shape{
     }
 }
 
-class Rectangle{
+class Rectangle extends Shape{
     int l=5;
     int b=7;
     void area(){

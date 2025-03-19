@@ -10,8 +10,11 @@ final class Final_class{
         System.out.println("Final class");
     }
 }
-
-// class Final_test extends Final_ex, Final_class {
+// class test_class extends Final_class{
+//     public static void main(String[] args){
+//         System.out.println("Final class can't be inherited.");
+//     }
+// }
 
 class Final_test extends Final_ex{
     public static void main(String[] args){
