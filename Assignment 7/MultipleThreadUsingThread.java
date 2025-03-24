@@ -1,6 +1,6 @@
-class MyTh extends Thread{
+class T extends Thread{
     String name = "";
-    MyTh(String n){
+    T(String n){
         name = n;
     }
     public void run(){
@@ -12,8 +12,8 @@ class MyTh extends Thread{
 
 class MultipleThreadUsingThread{
     public static void main(String[] args) {
-        MyTh mt1 = new MyTh("Thread 1");
-        MyTh mt2 = new MyTh("Thread 2");
+        T mt1 = new T("Thread 1");
+        T mt2 = new T("Thread 2");
         mt1.start();
         mt2.start();
     }
