@@ -1,6 +1,6 @@
-class MyTh implements Runnable{
+class MyTh2 implements Runnable{
     String name = "";
-    MyTh(String n){
+    MyTh2(String n){
         name = n;
     }
     public void run(){
@@ -12,8 +12,8 @@ class MyTh implements Runnable{
 
 class MultipleThreadUsingRunnable{
     public static void main(String[] args) {
-        MyTh mt1 = new MyTh("Thread 1");
-        MyTh mt2 = new MyTh("Thread 2");
+        MyTh2 mt1 = new MyTh2("Thread 1");
+        MyTh2 mt2 = new MyTh2("Thread 2");
         
         Thread t1 = new Thread(mt1);
         Thread t2 = new Thread(mt2);

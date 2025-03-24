@@ -1,11 +1,10 @@
 class Var{
     static int a=0;
-    }
-    
-    class Th extends Thread {
-        public void run(){
-            for(int i=0;i<10000;i++){
-                Var.a++;
+}
+class Th extends Thread {
+    public void run(){
+        for(int i=0;i<10000;i++){
+            Var.a++;
         }
     }
 }
